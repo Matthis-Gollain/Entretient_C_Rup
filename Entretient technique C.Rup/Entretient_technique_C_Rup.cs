@@ -351,8 +351,8 @@ namespace Entretient_technique_C.Rup
          *  On supprimerai EAST et WEST
          *  On garderai SOUTH
          *  Ce qui nous donnerai une séquence finale en NORTH SOUTH
-         *  
-         *  La modification nécessaire serai, lors d'une suppression de repartir d'un index antérieur
+         *  Si on veut éviter ce genre "d'incohérence"
+         *  La modification nécessaire serai, lors d'une suppression, de repartir d'un index antérieur
          *  Comme suit : 
          */
 
@@ -403,6 +403,5 @@ namespace Entretient_technique_C.Rup
             }
             return dir;
         }
-
     }
 }
